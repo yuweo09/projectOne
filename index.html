@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Home</title>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link type="text/css" rel = "stylesheet" href="style.css">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+</head>
+<body>
+  <nav class="navBar" role="navigation">
+    <div class="nav-wrapper container"><a id="logo" href="landing.html" class="brand-logo">Play Music</a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 id="w" class="header center">Welcome to you</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Start your day right</h5>
+      </div>
+
+      <ul id="slide-out" class="side-nav">
+      <li><div class="userView">
+
+        <a href="#!user"><img class="circle" src="http://spaceplace.nasa.gov/review/sunburn/sunburn1.en.png"></a>
+        <a href="#!name"><span class="white-text name">Goodmorning</span></a>
+        <a href="#!email"><span class="white-text email"></span></a>
+      </div></li>
+      <center>   <li><i class="material-icons">cloud</i>To do list</li></center>
+      <form id="todoForm">
+       <input type="text" id="todoInput">
+
+      </form>
+
+      <!-- <li><a href="#!">Second Link</a></li> -->
+   <div id="todoList"></div>
+
+      <div class="divider"></div>
+
+         <center><button type="button" onclick="todoList()">Add to list</button></center>
+    </ul>
+      <div class="row">
+   <div class="col s5 "><span id="flt" class="flow-text">To do list</span></div>       </div>
+    <div class="row">
+
+   <div class="col s5 "><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a></div>
+ </div>
+
+
+    <form>
+      <div class="row center">
+        <label><h4 >Select your mood and get a Quote</h4></label>
+        <select id="mood" class="browser-default">
+          <option value="" disabled selected>GoodMorning, How do you feel this morning?</option>
+          <option value="Happy">Happy</option>
+          <option value="Sad">Sad</option>
+          <option value="Motivation">Motivation</option>
+          <option value="Funny">Funny</option>
+        </select>
+      </div>
+    <h4 id="la"> Quote of the Day</h4>
+      <h4><p id="qoute"></h4>
+        <!-- <iframe src="https://embed.spotify.com/?uri=spotify:user:erebore:playlist:788MOXyTfcUb1tdw4oC7KJ" width="250" height="80" frameborder="0" allowtransparency="true"></iframe> -->
+<!-- <iframe src="https://embed.spotify.com/?uri=spotify:user:erebore:playlist:788MOXyTfcUb1tdw4oC7KJ" width="300" height="380" frameborder="0" allowtransparency="true"></iframe> -->
+
+
+      </p>
+        <!-- <iframe src="https://embed.spotify.com/?uri=spotify:trackset:PREFEREDTITLE:65npPa1U4cgobX9wU7Jgpb,5Z7ygHQo02SUrFmcgpwsKW,1x6ACsKV4UdWS2FMuPFUiT,4bi73jCM02fMpkI11Lqmfe,55Aa2cqylxrFIXC767Z865" width="300" height="380" ></iframe> -->
+      <div id="target">
+      </div>
+      <div class="center-align" id="images">
+      </div>
+      <!-- <iframe src= "https://embed.spotify.com/?uri=spotify:trackset:PREFEREDTITLE:55Aa2cqylxrFIXC767Z865,65npPa1U4cgobX9wU7Jgpb",width="300" height="380" ></iframe> -->
+
+
+
+
+      <!-- <p>
+          <input class='genre' value="Rock" name="group1" type="radio" id="test2" />
+          <label for="test2">Rock</label>
+      </p>https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js
+      <p>
+          <input class='genre' value="Country" name="group1" type="radio" id="test3"  />
+          <label for="test3">Country</label>
+      </p>
+      <p>
+          <input class='genre' value="Pop" name="group1" type="radio" id="test4"  />
+          <label for="test4">Pop</label>
+      </p> -->
+
+
+      <div class "col m12">
+        <!-- <img src="" id="gif"> -->
+        <img  id="gif" >
+</div>
+<div class="parallax-container">
+    <div class="parallax"><img src="http://hdfreewallpaper.net/wp-content/uploads/2015/08/sunrise-sunset-wallpaper-hd-free.jpg"></div>
+  </div>
+    </form>
+  <!-- <iframe src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:3rgsDhGHZxZ9sB9DQWQfuf" width="300" height="380" frameborder="0" allowtransparency="true"></iframe> -->
+  <!--  Scripts-->
+
+  <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+ <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+ <script src="https://w.soundcloud.com/player/api.js"></script>
+  <script src="https://apis.google.com/js/api.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+ <script >
+ $(document).ready(function(){
+ $('.parallax').parallax();
+ });
+
+ </script>
+ <script src="app.js"></script>
+  </body>
+</html>

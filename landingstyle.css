@@ -1,0 +1,56 @@
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+/*html,*/
+/*body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}*/
+
+body{
+  /*background-color: #794044;*/
+  /*background-image: url(http://hdfreewallpaper.net/wp-content/uploads/2015/08/sunrise-sunset-wallpaper-hd-free.jpg);
+z-index: 8;*/
+}
+
+.navBar {
+  background-color: #4ABDAC;
+
+}
+
+nav ul a {
+  font-size: 25px;
+}
+h1 {
+  color: #FC4A1A;
+   text-shadow: 2px 2px black;
+
+}
+#example1 {
+    /*background-image: url(http://hdfreewallpaper.net/wp-content/uploads/2015/08/sunrise-sunset-wallpaper-hd-free.jpg);*/
+    background-position: right bottom, left top;
+    background-repeat:  repeat;
+    padding: 15px;
+}
+#particle-canvas {
+  /*width: 100%;
+  height: 100%;*/
+  /*background-image: url(http://hdfreewallpaper.net/wp-content/uploads/2015/08/sunrise-sunset-wallpaper-hd-free.jpg);*/
+
+ position: fixed;
+  background-position: right bottom, left top;
+  background-repeat:  repeat;
+  padding: 15px;
+    z-index: 1;
+}
+#inde{
+    z-index: 5;
+     position: relative;
+}
+#artist{
+  color: white;
+}

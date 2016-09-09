@@ -1,0 +1,44 @@
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+body{
+  background-color: #F78733;
+  
+}
+
+.navBar {
+  background-color: #F7C331;
+
+}
+
+nav ul a {
+  font-size: 25px;
+}
+h1 {
+  color: #F7C331;
+    text-shadow: 2px 2px #6B7A8F;
+}
+h5 {
+  color: #FC4A1A;
+    text-shadow: 2px 2px black;
+}
+h4 {
+  color: #FC4A1A;
+    text-shadow: 2px 2px black;
+}
+#logo{
+    color: #FC4A1A;
+    text-shadow: 2px 2px black;
+}
+#flt{
+  color:  #F7C331;
+  float: left;
+  text-shadow: 2px 2px #6B7A8F;
+}
+#la{
+  color: #F7C331;
+  text-shadow: 2px 2px #6B7A8F;
+}
+.divider{
+  overflow: scroll;
+}
