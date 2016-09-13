@@ -2,12 +2,12 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 body{
-  background-color: #F78733;
-  
+  background-color: #f99b53;
+
 }
 
 .navBar {
-  background-color: #F7C331;
+  background-color: #556591;
 
 }
 
@@ -19,16 +19,16 @@ h1 {
     text-shadow: 2px 2px #6B7A8F;
 }
 h5 {
-  color: #FC4A1A;
-    text-shadow: 2px 2px black;
+  color: #556591;
+    /*text-shadow: 2px 2px white;*/
 }
 h4 {
-  color: #FC4A1A;
-    text-shadow: 2px 2px black;
+  color: #556591;
+    /*text-shadow: 2px 2px white;*/
 }
 #logo{
-    color: #FC4A1A;
-    text-shadow: 2px 2px black;
+    color: white;
+    /*text-shadow: 2px 2px white;*/
 }
 #flt{
   color:  #F7C331;
